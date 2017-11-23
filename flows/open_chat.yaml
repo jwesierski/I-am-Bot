@@ -1,0 +1,13 @@
+name: open_chat
+routes: true
+states:
+    open:
+        component: meya.random_text
+        properties:
+            responses:
+            - Chatbot over here
+            - Come talk to me
+            - Don't be a stranger!
+            - I just want to be a real boy
+            - I see you (0)(0)
+            return: true

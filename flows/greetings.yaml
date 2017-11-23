@@ -1,0 +1,30 @@
+name: greetings
+route: true
+states:
+    hi:
+        component: meya.random_text
+        properties:
+            responses:
+                - "Hey there! 😀"
+                - "Hi! 😃"
+                - "Howdy! 😃"
+                - "Hello! 😃"
+        return: true
+    how_are_you:
+        component: meya.random_text
+        properties:
+            responses:
+                - "I'm fine, thanks for asking 😃"
+                - Great! How are you?
+                - Super duper. You?
+        return: true
+    whats_up:
+        component: meya.text
+        properties:
+            text: Not much. What's up with you?
+        return: true
+    help:
+        component: meya.text
+        properties:
+            text: "Happy to help 😃"
+        return: true

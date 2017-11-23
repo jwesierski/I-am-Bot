@@ -1,0 +1,9 @@
+-   flow: greetings
+    intent: meya.greetings
+-   flow: open_chat
+    intent: meya.open_chat
+-   flow: whoSpot
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: who
