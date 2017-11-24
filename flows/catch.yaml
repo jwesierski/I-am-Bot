@@ -1,0 +1,16 @@
+name: catch
+states:
+    first:
+        component: meya.text
+        properties:
+            text: Maybe I need to fix that. Could you try typing that again.
+    second:
+        component: meya.random_text
+        properties:
+            responses:
+            - Give me a break, all I see is zeros and ones
+            - You probably think you're so smart
+            - Im a programmer not a mind reader
+            - This a class project ok my bad
+            - This wouldn't have happend to Zuckerberg
+            return: true

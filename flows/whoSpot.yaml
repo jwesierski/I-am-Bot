@@ -1,9 +1,0 @@
-name: whoSpot
-routes: true
-states:
-    open:
-        component: meya.random_text
-        properties:
-            responses:
-            - who am I?
-            return: true

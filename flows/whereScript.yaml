@@ -1,0 +1,15 @@
+name: whereScript
+states:
+    first:
+        component: meya.text
+        properties:
+            text: So you want to learn about where I've been.
+    continued:
+        component: meya.text
+        properties:
+            text: "Well you are in luck! Try asking:  'Where did you grow up?' 'Where have you been to school?'' 'Where do you currently live?'"
+    last:
+        component: meya.text
+        properties:
+            text: Please type the exact lines, or copy and paste!.
+        return: true

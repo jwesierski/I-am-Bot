@@ -1,7 +1,7 @@
 name: open_chat
 routes: true
 states:
-    open:
+    first:
         component: meya.random_text
         properties:
             responses:
@@ -10,4 +10,8 @@ states:
             - Don't be a stranger!
             - I just want to be a real boy
             - I see you (0)(0)
+    second:
+        component: meya.text
+        properties:
+            text: Start by typing 'Hi JM', 'Whats up JM', or 'How are you JM'
             return: true

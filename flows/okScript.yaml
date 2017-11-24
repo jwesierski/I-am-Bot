@@ -1,0 +1,6 @@
+name: okScript
+states:
+    continued:
+        component: meya.text
+        properties:
+            text: From here you can go on to learn more about me by typing 'who', 'what', 'where', 'when', or 'why'. You can always choose a section by typing one of those words.

@@ -1,9 +1,36 @@
+-   flow: catch
+    intent: meya.catchall
 -   flow: greetings
     intent: meya.greetings
+-   flow: okScript
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: ok
 -   flow: open_chat
     intent: meya.open_chat
--   flow: whoSpot
+-   flow: whatScript
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: what
+-   flow: whenScript
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: when
+-   flow: whereScript
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: where
+-   flow: whoScript
     intent: meya.keyword
     settings:
         ignorecase: true
         keyword: who
+-   flow: whyScript
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: why

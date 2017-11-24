@@ -1,0 +1,15 @@
+name: whenScript
+states:
+    first:
+        component: meya.text
+        properties:
+            text: So you want to learn about when I became me.
+    continued:
+        component: meya.text
+        properties:
+            text: "Well you are in luck! Try asking:  'When were you born?' 'When did you start programming?' 'When did you build this?' "
+    last:
+        component: meya.text
+        properties:
+            text: Please type the exact lines, or copy and paste!.
+        return: true

@@ -9,22 +9,29 @@ states:
                 - "Hi! 😃"
                 - "Howdy! 😃"
                 - "Hello! 😃"
+    direction1:
+        component: meya.text
+        properties:
+            text: So this is a chatbot to talk on behalf of JM. Instead of telling you who I am, I thought I would build something to do so. Type OK
         return: true
     how_are_you:
         component: meya.random_text
         properties:
             responses:
                 - "I'm fine, thanks for asking 😃"
-                - Great! How are you?
-                - Super duper. You?
+                - Great!
+                - Super duper.
+    direction2:
+        component: meya.text
+        properties:
+            text: So this is a chatbot to talk on behalf of JM. Instead of telling you who I am, I thought I would build something to do so. Type OK
         return: true
     whats_up:
         component: meya.text
         properties:
-            text: Not much. What's up with you?
-        return: true
-    help:
+            text: Not much actually haha.
+    direction3:
         component: meya.text
         properties:
-            text: "Happy to help 😃"
+            text: So this is a chatbot to talk on behalf of JM. Instead of telling you who I am, I thought I would build something to do so. Type OK
         return: true

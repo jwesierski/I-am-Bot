@@ -1,0 +1,15 @@
+name: whatScript
+states:
+    first:
+        component: meya.text
+        properties:
+            text: So you want to learn about what I am.
+    continued:
+        component: meya.text
+        properties:
+            text: "Well you are in luck! Try asking:  'What is your favorite color?' 'Who do you look like?'' 'What are you studiying?' "
+    last:
+        component: meya.text
+        properties:
+            text: Please type the exact lines, or copy and paste!.
+        return: true
