@@ -1,4 +1,4 @@
-name: open_chat
+name: start_chat
 routes: true
 states:
     first:

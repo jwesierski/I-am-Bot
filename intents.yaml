@@ -7,8 +7,8 @@
     settings:
         ignorecase: true
         keyword: ok
--   flow: open_chat
-    intent: meya.open_chat
+-   flow: start_chat
+    intent: meya.start_chat
 -   flow: whatColor
     intent: meya.keyword
     settings:
@@ -38,7 +38,7 @@
     intent: meya.keyword
     settings:
         ignorecase: true
-        keyword: when did you build this
+        keyword: when did you build this?
 -   flow: whenProgramming
     intent: meya.keyword
     settings:

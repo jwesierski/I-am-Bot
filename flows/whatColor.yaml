@@ -3,4 +3,4 @@ states:
     first:
         component: meya.text
         properties:
-            text: Well my favorite color would have to be blue. Im fine with any blue, but Royal would have to be my favorite.
+            text: Well my favorite color would have to be blue. Im fine with any blue, but royal blue(Hence the header) would have to be my favorite. The pink bubble color is becuase I like to show my feminine side.
