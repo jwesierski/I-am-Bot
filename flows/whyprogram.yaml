@@ -1,0 +1,6 @@
+name: whyprogram
+states:
+    first:
+        component: meya.text
+        properties:
+            text: I program because look how cool it is! We have been giving speeches and power points about ourselves since kindergarden. Now I don't have to HAHA. I also really like to build things and it is a great way to experess creativity and make friends in the process. Plus it is the closest thing to magic!

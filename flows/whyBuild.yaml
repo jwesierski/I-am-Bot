@@ -1,0 +1,6 @@
+name: whyBuild
+states:
+    first:
+        component: meya.text
+        properties:
+            text: Honestly I felt powerpoint to be boring. This way everyone can actually be engaged. I have wanted to build a chatbot for a while because artificial intelligence interests me, and this just happened to be the perfect occasion.

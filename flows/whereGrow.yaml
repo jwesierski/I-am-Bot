@@ -1,0 +1,6 @@
+name: whereGrow
+states:
+    first:
+        component: meya.text
+        properties:
+            text: I grew up in southern California. Specifically Orange County!

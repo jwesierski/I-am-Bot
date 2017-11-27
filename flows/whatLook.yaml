@@ -1,0 +1,10 @@
+name: whatLook
+states:
+    image_card_state:
+        component: meya.image
+        properties:
+            image_url: 'https://media-exp1.licdn.com/mpr/mpr/shrinknp_200_200/AAIA_wDGAAAAAQAAAAAAAAz0AAAAJDlhMDYwMGU5LWZkMjMtNDZiMi05MzFhLTk5YWM2ZDExMWViYw.jpg'
+    photoText:
+        component: meya.text
+        properties:
+            text: Lols. This is my linked in profile because I needed an online image.

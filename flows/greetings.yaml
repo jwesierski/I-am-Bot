@@ -12,7 +12,7 @@ states:
     direction1:
         component: meya.text
         properties:
-            text: So this is a chatbot to talk on behalf of JM. Instead of telling you who I am, I thought I would build something to do so. Type OK
+            text: So this is a chatbot to talk on behalf of me, Mr. JM Wesierski. I figured that instead of telling you who I am(which is boring), I would build something to do it for me. Type OK
         return: true
     how_are_you:
         component: meya.random_text
@@ -24,7 +24,7 @@ states:
     direction2:
         component: meya.text
         properties:
-            text: So this is a chatbot to talk on behalf of JM. Instead of telling you who I am, I thought I would build something to do so. Type OK
+            text: So this is a chatbot to talk on behalf of me, Mr. JM Wesierski. I figured that instead of telling you who I am(which is boring), I would build something to do it for me. Type OK
         return: true
     whats_up:
         component: meya.text
@@ -33,5 +33,5 @@ states:
     direction3:
         component: meya.text
         properties:
-            text: So this is a chatbot to talk on behalf of JM. Instead of telling you who I am, I thought I would build something to do so. Type OK
+             text: So this is a chatbot to talk on behalf of me, Mr. JM Wesierski. I figured that instead of telling you who I am(which is boring), I would build something to do it for me. Type OK
         return: true

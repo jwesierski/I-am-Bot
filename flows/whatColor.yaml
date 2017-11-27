@@ -1,0 +1,6 @@
+name: whatColor
+states:
+    first:
+        component: meya.text
+        properties:
+            text: Well my favorite color would have to be blue. Im fine with any blue, but Royal would have to be my favorite.

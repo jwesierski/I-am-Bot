@@ -1,0 +1,6 @@
+name: whySFSU
+states:
+    first:
+        component: meya.text
+        properties:
+            text: I came to this school because of the computer science aspect of the city. It is extremely famous for Silicon Valley and all the startups, and I felt it was the best place to try and break into the area.

@@ -1,0 +1,6 @@
+name: whatStudy
+states:
+    first:
+        component: meya.text
+        properties:
+            text: I am currently debating between studying Computer Science and Psychology. I am a freshman finishing up my general eds so I do have some time to figure it out.

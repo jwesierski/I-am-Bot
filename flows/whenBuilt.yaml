@@ -1,0 +1,6 @@
+name: whenBuilt
+states:
+    first:
+        component: meya.text
+        properties:
+            text: I built this over thanksgiving break. Yes, even programmers procrastinate..

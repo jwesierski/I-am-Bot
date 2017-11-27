@@ -1,0 +1,22 @@
+name: whereSchool
+states:
+    first:
+        component: meya.text
+        properties:
+            text: I went to highschool at Santa Margarita. Looks like this!
+    school:
+        component: meya.image
+        properties:
+            image_url: 'http://www.smhs.org/uploaded/About/Admin_Board/NEW_SMCHS_Seal_2C_PMS_287_4515.jpg'
+    school3:
+        component: meya.image
+        properties:
+            image_url: 'http://www.smhs.org/uploaded/Academics/Photos/class_of_2017_web.jpg'
+    school2:
+        component: meya.image
+        properties:
+            image_url: 'https://cdn.patch.com/users/86632/2012/05/T800x600/ab25cf41b10a5f1f06dae11921d66060.jpg'
+    school4:
+        component: meya.image
+        properties:
+            image_url: 'http://www.smhs.org/uploaded/Athletics/Athletic_Photos/Facility/Aerial_Shots.jpg'

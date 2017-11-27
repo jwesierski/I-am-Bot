@@ -1,0 +1,6 @@
+name: whenProgramming
+states:
+    first:
+        component: meya.text
+        properties:
+            text: I started programming at the beggining of my senior year. I went to an on campus meeting for a club called PIxEL about the basics of web development and I kind of just got hooked. After that I taught kids for service hours with the other members of the group and have just been coding sense.

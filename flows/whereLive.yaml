@@ -1,0 +1,6 @@
+name: whereLive
+states:
+    first:
+        component: meya.text
+        properties:
+            text: I live in the towers on campus. The fourteenth floor to be exact. You don't really think about it until the elevators are out HA!

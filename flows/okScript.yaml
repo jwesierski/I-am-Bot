@@ -1,5 +1,20 @@
 name: okScript
 states:
+    name:
+        component: meya.input_string
+        properties:
+          text: "BTW Who am I speaking to?"
+          output: name
+          scope: user
+    nameResponse:
+        component: meya.random_text
+        properties:
+            responses:
+            -   Oh hey glad to talk to you {{ user.name }}.
+            -   Well hope this doesn't disspapoint {{ user.name }}.
+            -   Great {{ user.name }}, it's good to get on a more personal level.
+            -   Ahh {{ user.name }}, you are in for a treat.
+            -   Ooo by the way {{ user.name }}, you're my favorite.
     continued:
         component: meya.text
         properties:

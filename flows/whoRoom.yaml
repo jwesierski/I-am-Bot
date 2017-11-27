@@ -1,0 +1,6 @@
+name: whoRoom
+states:
+    first:
+        component: meya.text
+        properties:
+            text: I have four wonderful roomates. Zach, Tyler, Madison(my favorite), and HOLYTOE(Joel).

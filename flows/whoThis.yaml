@@ -1,0 +1,18 @@
+name: whoThis
+states:
+    first:
+        component: meya.text
+        properties:
+            text: What do you mean who is this!? This is SantaBot HO HO HO what do you want for Christmas.
+    second:
+        component: meya.text
+        properties:
+            text: Psych! JM Wesierski!!!!!!!
+    image:
+        component: meya.image
+        properties:
+            image_url: 'https://pbs.twimg.com/profile_banners/2373994176/1505360268/1500x500'
+    image text:
+        component: meya.text
+        properties:
+            text: "Just to prove it: my dawg and I. BUN CITY!"

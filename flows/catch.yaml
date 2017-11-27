@@ -10,7 +10,7 @@ states:
             responses:
             - Give me a break, all I see is zeros and ones
             - You probably think you're so smart
-            - Im a programmer not a mind reader
+            - I'm a programmer not a mind reader
             - This a class project ok my bad
             - This wouldn't have happend to Zuckerberg
             return: true
