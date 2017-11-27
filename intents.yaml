@@ -13,12 +13,12 @@
     intent: meya.keyword
     settings:
         ignorecase: true
-        keyword: what is your favorite color
+        keyword: what is your favorite color?
 -   flow: whatLook
     intent: meya.keyword
     settings:
         ignorecase: true
-        keyword: what do you look like
+        keyword: what do you look like?
 -   flow: whatScript
     intent: meya.keyword
     settings:
@@ -28,7 +28,12 @@
     intent: meya.keyword
     settings:
         ignorecase: true
-        keyword: what are you studying
+        keyword: what are you studying?
+-   flow: whenBorn
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: when were you born?
 -   flow: whenBuilt
     intent: meya.keyword
     settings:
@@ -38,7 +43,7 @@
     intent: meya.keyword
     settings:
         ignorecase: true
-        keyword: when did you start programming
+        keyword: when did you start programming?
 -   flow: whenScript
     intent: meya.keyword
     settings:
@@ -48,17 +53,17 @@
     intent: meya.keyword
     settings:
         ignorecase: true
-        keyword: where did you grow up
+        keyword: where did you grow up?
 -   flow: whereLive
     intent: meya.keyword
     settings:
         ignorecase: true
-        keyword: where do you currently live
+        keyword: where do you currently live?
 -   flow: whereSchool
     intent: meya.keyword
     settings:
         ignorecase: true
-        keyword: where did you go to school
+        keyword: where did you go to school?
 -   flow: whereScript
     intent: meya.keyword
     settings:
@@ -68,12 +73,12 @@
     intent: meya.keyword
     settings:
         ignorecase: true
-        keyword: who is in your family
+        keyword: who is in your family?
 -   flow: whoRoom
     intent: meya.keyword
     settings:
         ignorecase: true
-        keyword: who do you room with
+        keyword: who do you room with?
 -   flow: whoScript
     intent: meya.keyword
     settings:
@@ -83,12 +88,17 @@
     intent: meya.keyword
     settings:
         ignorecase: true
-        keyword: who is this
+        keyword: who is this?
+-   flow: whyBuild
+    intent: meya.keyword
+    settings:
+        ignorecase: true
+        keyword: why did you build this?
 -   flow: whyprogram
     intent: meya.keyword
     settings:
         ignorecase: true
-        keyword: why do you program
+        keyword: why do you program?
 -   flow: whyScript
     intent: meya.keyword
     settings:
@@ -98,4 +108,4 @@
     intent: meya.keyword
     settings:
         ignorecase: true
-        keyword: why San Francisco State
+        keyword: why San Francisco State?

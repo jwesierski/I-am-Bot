@@ -13,5 +13,5 @@ states:
     second:
         component: meya.text
         properties:
-            text: Start by typing 'Hi JM', 'Whats up JM', or 'How are you JM'
+            text: Start by typing 'Hi JM', 'What up JM', or 'How are you JM'
             return: true

@@ -7,7 +7,7 @@ states:
     continued:
         component: meya.text
         properties:
-            text: "Well you are in luck! Try asking:  'When were you born?' 'When did you start programming?' 'When did you build this?' "
+            text: "Well {{ user.name }} you are in luck! Try asking:  'When were you born?' 'When did you start programming?' 'When did you build this?' "
     last:
         component: meya.text
         properties:
