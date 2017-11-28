@@ -4,8 +4,11 @@ states:
         component: meya.text
         properties:
             text: My immediate family consists of me, my brother Scott, my  momma Michele and my dad Steve.
-
-    familyImgage:
+    family:
         component: meya.image
         properties:
-            image_url: 'https://upload.wikimedia.org/wikipedia/commons/7/71/2010-kodiak-bear-1.jpg'
+            image_url: 'https://scontent-lax3-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/18879649_1904527079761845_7459544807950516224_n.jpg'
+    second:
+        component: meya.text
+        properties:
+            text: We do not have any extremely recent photos, but this is from my senior graduation in May. On the left is my brother's girlfriend.
