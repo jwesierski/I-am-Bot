@@ -7,7 +7,7 @@ states:
     second:
         component: meya.text
         properties:
-            text: Psych! JM Wesierski!!!!!!!
+            text: Just kidding, this is JM!
     image:
         component: meya.image
         properties:

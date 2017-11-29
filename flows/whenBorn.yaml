@@ -3,4 +3,4 @@ states:
     first:
         component: meya.text
         properties:
-            text: "I was born on January first 1999!, NEW YEARS BABY"
+            text: "I was born on January first 1999. NEW YEARS BABY!"
